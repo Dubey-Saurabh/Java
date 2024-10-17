@@ -1,0 +1,11 @@
+Comparable: a) Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price.
+            b) Comparable affects the original class, i.e., the actual class is modified.
+            c) Comparable provides compareTo() method to sort elements.
+            d) Comparable is present in java.lang package.
+            f) We can sort the list elements of Comparable type by Collections.sort(List) method.
+            
+Comparator: a) The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
+            b) Comparator doesn't affect the original class, i.e., the actual class is not modified.
+            c) Comparator provides compare() method to sort elements.
+            d) A Comparator is present in the java.util package.
+            f) We can sort the list elements of Comparator type by Collections.sort(List, Comparator) method.

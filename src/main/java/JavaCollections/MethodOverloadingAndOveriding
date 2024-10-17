@@ -1,0 +1,66 @@
+Method Overloading : a) Method overloading is used to increase the readability of the program.
+                     b) Method overloading is performed within class.
+                     c) In case of method overloading, parameter must be different.[ No of arguments, Sequence of arguments, type of arguments ].
+                     d) Method overloading is the example of compile time polymorphism.
+                     e) Return type can be same or different in method overloading. But you must have to change the parameter.
+                     
+Method Overriding  : a) Method overriding is used to provide the specific implementation of the method that is already provided by its super class.
+                     b) Method overriding occurs in two classes that have IS-A (inheritance) relationship. 
+                     c) In case of method overriding, parameter must be same.
+                     d) Method overriding is the example of run time polymorphism.
+                     e) Return type must be same or covariant in method overriding.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

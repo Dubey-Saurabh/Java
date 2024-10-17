@@ -1,0 +1,41 @@
+Can we override static method:
+-No, you cannot override static methods in Java because Static methods are associated with the class itself, not with an instance of the class.
+  When a subclass inherits a static method from its parent class, it is not possible to override the behavior of that static method.
+
+What happens when you declare a static method with the same name and signature in a subclass? :
+-The method in the superclass will be called at compile-time.
+
+Can we declare constructor as final:
+-No, a constructor can't be made final. A final method cannot be overridden by any subclasses.
+  As mentioned previously, the final modifier prevents a method from being modified in a subclass.
+  The main intention of making a method final would be that the content of the method should not be changed by any outsider.
+
+Can we declare an abstract method as final:
+-No, an abstract method cannot be declared as final
+  Abstract methods:
+  These methods are declared in abstract classes and cannot be implemented in the same class. They must be implemented in a subclass of the inheritance tree.
+  Final methods:
+  These methods cannot be redefined in subclasses. They cannot have any additional subclasses and close an inheritance tree definitively.
+
+ Can an interface be final:
+ -Yes, an interface can be declared as final in Java.
+   The final keyword prevents other classes or interfaces from extending or implementing the interface.
+
+   Use of Static keyword in Java:
+   -The static keyword in Java is used to manage memory and describe how objects are managed in memory.
+     When a member is declared static, it belongs to the class rather than instances of the class.
+     Accessible without creating instances.
+
+  Why we should use Interface in Java:
+  -It is used to achieve abstraction.
+    By interface, we can support the functionality of multiple inheritance.
+    It can be used to achieve loose coupling.
+
+Constructor as private:
+-A private constructor is a special type of constructor that can only be called within the class that it's defined in.
+  Private constructors can be used to prevent other classes from subclassing a class.
+
+What is static block in Java:
+-Static block is executed even before the main method just when the class load itself.
+
+NOTE: Max no of int arguments/parameters for non static method is 254 and for static method is 255.

@@ -1,0 +1,2 @@
+ClassLoader : The Java ClassLoader is a part of the Java Runtime Environment that dynamically loads Java classes into the Java Virtual Machine
+Types: BootStrap ClassLoader,Extension ClassLoader,System ClassLoader.

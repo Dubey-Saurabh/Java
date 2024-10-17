@@ -1,0 +1,8 @@
+How to set up:
+-Download Jenkins latest war file
+-run java -jar jenkins.war (war file from command line), where you'll get the private administrative password for the configuration.
+-Goto you local host: localhost:8080
+-Enter that password
+-install suggested plugins
+-After download and install plugins, you'll get the window to set first admin user account
+-Set up is complete

@@ -1,0 +1,4 @@
+-Using Lambda is only applicable for functional interfaces.
+-Functional Interface is represented by @FunctionalInterface
+  Properties: It can only have one abstract method, but can have more no of static and default methods.
+

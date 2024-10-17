@@ -1,0 +1,17 @@
+Final keyword is being used to define constant values.
+
+Final kills the property of Inheritance.
+
+By declaring any method as Final, it can't be overridden.
+
+____________________________________________________________
+
+Finally block will always execute no matter what.
+
+It is usable when we generally works with database, so to close the database or socket connection we use it.
+
+---------------------------------------------------------
+
+Finalize is a method in java and which  is used to clean up process of the object.
+
+Just before the garbage collection clean up Finalize method comes.
