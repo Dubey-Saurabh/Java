@@ -1,6 +1,7 @@
 package JavaCollections.ArrayListPrograms;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class SortArrayList {
@@ -18,9 +19,7 @@ public class SortArrayList {
 
 		for (String fruits : list) {
 			System.out.println(fruits);
-			
-	   System.out.println("Sorted numbers");
-	   
+		}
 	   ArrayList<Integer> list1 = new ArrayList<Integer>();
 
 	   list1.add(10);
@@ -35,6 +34,6 @@ public class SortArrayList {
 			System.out.println(num);
 
 		}
-	}
+
 }
 }

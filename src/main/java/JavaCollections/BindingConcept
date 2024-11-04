@@ -1,7 +1,0 @@
-Binding: Connecting a method call to the method body is known as binding.
-
-There are two types of binding
-
-Static Binding (also known as Early Binding) : When type of object is determined at compiled time. It is known as Static binding.
-Dynamic Binding (also known as Late Binding) : When type of object is determined at run time. It is known as Dynamic binding.
-

@@ -23,14 +23,14 @@ public class HashmapClass {
 		hm.put(2, "you");
 		hm.put(3, "there?");
 
-		System.out.println(hm.get(1));
-		System.out.println(hm.get(2));
-		System.out.println(hm.get(3));
-		System.out.println(hm.get(4));
+//		System.out.println(hm.get(1));
+//		System.out.println(hm.get(2));
+//		System.out.println(hm.get(3));
+//		System.out.println(hm.get(4));
 
 		// to get full values in hashmap we use mapentry
 
-		for (Entry e : hm.entrySet()) {
+		for (Map.Entry e : hm.entrySet()) {
 
 			System.out.println(e.getKey() + " : " + e.getValue());
 

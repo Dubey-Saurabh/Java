@@ -1,4 +1,5 @@
-Arrays store similar data type elements, to overcome this problem we use Object Arrays. We can store different data type values in a single variable or Array.
+Arrays store similar data type elements, to overcome this problem we use Object Arrays.
+ We can store different data type values in a single variable or Array.
 
 Size is fixed, to overcome this problem we use collection classes like ArrayList, HastTable etc.
 

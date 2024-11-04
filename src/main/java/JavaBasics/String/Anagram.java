@@ -8,6 +8,8 @@ public class Anagram {
 
         String str1 = "Grab";
         String str2 = "Crab";
+
+        if (!str1.isEmpty() && !str2.isEmpty())
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
 

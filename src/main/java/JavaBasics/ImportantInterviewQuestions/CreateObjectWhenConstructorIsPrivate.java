@@ -5,10 +5,8 @@ public class CreateObjectWhenConstructorIsPrivate {
     int age;
 
     private CreateObjectWhenConstructorIsPrivate() {
-
         age=30;
     }
-
     ;
 
     static {

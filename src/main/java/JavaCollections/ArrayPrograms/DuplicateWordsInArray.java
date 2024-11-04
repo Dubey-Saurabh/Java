@@ -64,6 +64,7 @@ public class DuplicateWordsInArray {
         Set<String> duplicate = Arrays.asList(s).stream().filter(e -> !dataSet.add(e)).collect(Collectors.toSet());
         System.out.println(duplicate);
 
+
         System.out.println("____By Stream and function interface_____");
 
         Set<String> newDup = Arrays.asList(s).stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
@@ -77,6 +78,7 @@ public class DuplicateWordsInArray {
         List<String> list = Arrays.asList(s);
         Set<String> freqOfEl = list.stream().filter(e -> Collections.frequency(list, e) > 1).collect(Collectors.toSet());
         System.out.println(freqOfEl);
+
 
 
     }

@@ -1,4 +1,4 @@
-package ArrayPrograms;
+package JavaCollections.ArrayPrograms;
 
 public class SecondSmallestElementinArray {
 	public static void main(String[] args) {

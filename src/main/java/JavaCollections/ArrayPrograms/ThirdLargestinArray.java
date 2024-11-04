@@ -1,4 +1,4 @@
-package ArrayPrograms;
+package JavaCollections.ArrayPrograms;
 
 public class ThirdLargestinArray {
 
