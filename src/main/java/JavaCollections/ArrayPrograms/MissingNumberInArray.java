@@ -17,10 +17,5 @@ public class MissingNumberInArray {
 		 }
 		 return expCount-actualCount;
 	 }
-	
-	
-	
-	
-	
 
 }

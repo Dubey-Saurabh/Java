@@ -8,7 +8,7 @@ public class AlphaNumericSeparateValues {
 
 
         System.out.println("nos would be : " + s.replaceAll("[^0-9]", ""));
-        System.out.println("nos would be : " + s.replaceAll("[^a-z]", ""));
+        System.out.println("string would be : " + s.replaceAll("[^a-z]", ""));
 
     }
 }

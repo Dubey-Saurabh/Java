@@ -1,5 +1,7 @@
 package JavaCollections.ArrayPrograms;
 
+import java.util.Arrays;
+
 public class ReverseOfArray {
 
 	public static void main(String[] args) {
