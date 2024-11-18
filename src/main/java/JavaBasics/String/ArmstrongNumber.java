@@ -13,8 +13,9 @@ public class ArmstrongNumber {
         while (num > 0) {
             r = num % 10;
             num = num / 10;
-            cube = cube + (r * r * r);
+            cube = cube + r * r * r;
         }
+
         if (t == cube) {
             System.out.println("Number is Armstrong");
         } else {

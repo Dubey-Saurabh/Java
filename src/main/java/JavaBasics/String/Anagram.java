@@ -9,13 +9,15 @@ public class Anagram {
         String str1 = "Grab";
         String str2 = "Crab";
 
-        if (!str1.isEmpty() && !str2.isEmpty())
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
-
         if (str1.length() != str2.length()) {
             System.out.println("Not Anagram");
         }
+
+        if (!str1.isEmpty() && !str2.isEmpty())
+            str1 = str1.toLowerCase();
+            str2 = str2.toLowerCase();
+
+
         char[] string1 = str1.toCharArray();
         char[] string2 = str2.toCharArray();
 

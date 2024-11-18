@@ -4,17 +4,18 @@ public class CheckSubstringIsAPartOfMainString {
 
 
     public static boolean isSubstringPresent(String str, String sub) {
+
         return str.matches("(.*)" + sub + "(.*)");
     }
 
     public static boolean isSubstringPresent1(String str, String sub) {
+
         return str.contains(sub);
     }
 
     public static boolean isSubstringPresent2(String str, String sub) {
-        return str.indexOf(sub)!=-1; // index of substring will always return -1 when it is not present.
+        return str.indexOf(sub) != -1; // index of substring will always return -1 when it is not present.
     }
-
 
 
     public static void main(String[] args) {

@@ -1,4 +1,0 @@
-How to set up:
--in your local project folder, open git bash and run configure username and email commands
--in your local project folder, open command prompt and hit git init
--run git remote add origin https://github.com/Dubey-Saurabh/Learning.git

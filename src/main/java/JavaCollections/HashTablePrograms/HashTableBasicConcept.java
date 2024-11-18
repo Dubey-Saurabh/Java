@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class HashTableBasicConcept {
 
+	//HashMap internally works like HashTable
+
 	public static void main(String[] args) {
 
 		Hashtable<Integer, String> map = new Hashtable<Integer, String>();

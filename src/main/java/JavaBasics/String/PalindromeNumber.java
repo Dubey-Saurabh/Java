@@ -11,9 +11,9 @@ public class PalindromeNumber {
 
         while (num > 0) {
 
-            r = num % 10;
-            Sum = (Sum * 10) + r;
-            num = num / 10;
+            r = num % 10; //1,2,1
+            Sum = (Sum * 10) + r; //1+
+            num = num / 10; //12,1
 
         }
         if (temp == Sum) {

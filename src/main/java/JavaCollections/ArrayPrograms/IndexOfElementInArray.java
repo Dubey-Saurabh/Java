@@ -28,7 +28,6 @@ public class IndexOfElementInArray {
                 i = i++;
             }
 
-
         }
         return OptionalInt.empty();
 
@@ -37,7 +36,7 @@ public class IndexOfElementInArray {
 
     public static void main(String[] args) {
 
-        int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+        int[] my_array = {25, 14, 56, 15, 36, 77, 18, 29, 49};
 
         indexOf(my_array, 56).ifPresent(index -> System.out.println("index position of 56: " + index));
     }

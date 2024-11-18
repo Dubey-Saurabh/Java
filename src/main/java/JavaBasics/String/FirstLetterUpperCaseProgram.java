@@ -11,8 +11,10 @@ public class FirstLetterUpperCaseProgram {
         String[] newString = string.trim().split(" "); //{salute,the,nation};
 
         String finalString = "";
+
         for (int i = 0; i < newString.length; i++) {
             String str = "";
+
             for (int j = 0; j < newString[i].length(); j++) {
                 char chr = ' ';
                 if (j == 0) {

@@ -1,8 +1,12 @@
 package JavaCollections.ArrayPrograms;
 
+import java.util.Arrays;
+
 public class SecondSmallestElementinArray {
 	public static void main(String[] args) {
 		int arr[] = { 5, 6, 8, 6, 4, 2, 1 };
+		Arrays.sort(arr);
+		System.out.println(arr[1]);
 		
 		System.out.println("Second Smallest element : " +getSecondSmallest(arr,7));
 

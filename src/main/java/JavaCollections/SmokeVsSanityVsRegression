@@ -1,0 +1,22 @@
+"Sanity Vs. Smoke Testing"
+
+Smoke Testing:
+1. Smoke Testing is performed to make sure that the critical functionalities of the program is working fine.
+2. It's a subset of acceptance testing.
+3. This testing is performed by the developers or testers
+4. It exercises the entire system from end to end and is like General Health Check Up
+Example: Testing login, homepage load, and critical navigation to verify stability before moving forward.
+When: Performed on new builds to check if the software is stable for further testing.
+
+Sanity Testing:
+1. Sanity Testing is preformed  to check the new functionality/bugs have been fixed.
+2. It's a subset of regression testing
+3. This is usually performed by testers
+4. It exercises only the particular component of the entire system and is like specialized health check up
+Example: If a login bug is fixed, sanity testing would confirm that the login feature works as expected without testing the entire application.
+When: Conducted after minor changes or fixes to ensure the targeted area is functioning as intended.
+
+Regression testing:
+1. verifies that new changes to an application do not affect existing features.
+2. Regression testing ensures that new features don't break existing features.
+3. Regression testing is usually run at the end of a development sprint

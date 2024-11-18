@@ -18,7 +18,7 @@ public class FrequencyOfEachCharactersInString {
 
         char charArr[] = string.toCharArray();
 
-        for (char c : string.toCharArray()) {
+        for (char c : charArr) {
 
             if (!String.valueOf(c).isBlank()) {
 

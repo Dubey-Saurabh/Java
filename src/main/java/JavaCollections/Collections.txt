@@ -1,0 +1,6 @@
+Collections.sort(list)
+Collections.shuffle(list)
+Collections.reverse(list)
+Collections.swap(replaceable index,replacing by index )
+Collections.copy(list1,list2)
+Collections.synchronizedMap(hashMap)

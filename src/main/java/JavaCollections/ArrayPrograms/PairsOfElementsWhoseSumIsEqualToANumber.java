@@ -4,6 +4,8 @@ public class PairsOfElementsWhoseSumIsEqualToANumber {
 
     public static void main(String[] args) {
 
+        //two pointers
+
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
 
         int low = 0;
@@ -18,9 +20,8 @@ public class PairsOfElementsWhoseSumIsEqualToANumber {
                     high--;
                 } else if (my_array[low] + my_array[high] < sum) {
                     low++;
-                }
-                else if (my_array[low] + my_array[high] == sum) {
-                    System.out.println("Pair (" + my_array[low] + "," + my_array[high] +")");
+                } else if (my_array[low] + my_array[high] == sum) {
+                    System.out.println("Pair (" + my_array[low] + "," + my_array[high] + ")");
                     low++;
                     high--;
                 }

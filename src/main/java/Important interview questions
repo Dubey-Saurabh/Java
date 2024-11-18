@@ -1,9 +1,7 @@
 Can we override static method:
 -No, you cannot override static methods in Java because Static methods are associated with the class itself, not with an instance of the class.
   When a subclass inherits a static method from its parent class, it is not possible to override the behavior of that static method.
-
-What happens when you declare a static method with the same name and signature in a subclass? :
--The method in the superclass will be called at compile-time.
+  When you do that, the method in the superclass will be called at compile-time.
 
 Can we declare constructor as final:
 -No, a constructor can't be made final. A final method cannot be overridden by any subclasses.
@@ -39,3 +37,15 @@ What is static block in Java:
 -Static block is executed even before the main method just when the class load itself.
 
 NOTE: Max no of int arguments/parameters for non static method is 254 and for static method is 255.
+
+Why main method is static one
+-so that the JVM can call it without creating an object of the class that contains it.
+
+Note: Interface object can't be created
+
+Access Modifiers In Java:
+Private: The access level of a private modifier is only within the class.
+Default: The access level of a default modifier is only within the package.
+Protected: The access level of a protected modifier is within the package and outside the package through child class.
+Public: The access level of a public modifier is everywhere.
+
