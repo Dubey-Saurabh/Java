@@ -8,7 +8,7 @@ public class CapitalLetterCountInCapitalizedStringSpecialCondition {
 
         int count = 0;
 
-        if (Character.isLowerCase(string.charAt(0))) {
+        if (!Character.isLowerCase(string.charAt(0))) {
             count++;
         }
         for (int i = 0; i < string.length(); i++) {

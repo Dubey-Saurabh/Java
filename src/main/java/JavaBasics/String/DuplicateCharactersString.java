@@ -2,6 +2,7 @@ package JavaBasics.String;
 
 import java.util.HashMap;
 import java.lang.String;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
@@ -10,39 +11,34 @@ public class DuplicateCharactersString {
     public static void main(String[] args) {
 
         printDuplicateCharactersCount("The number of seconds the Appium server should wait for clients to send commands before deciding that the client has gone away and the session should shut down");
-        printDuplicateCharactersCount(null);
+        try {
+            printDuplicateCharactersCount(null);
+        } catch (NullPointerException e) {
+            e.getMessage();
+        }
         printDuplicateCharactersCount("Saurabh");
     }
 
-    public static void printDuplicateCharactersCount(String s) { // a method
+    public static void printDuplicateCharactersCount(String str) {
 
-        if (s == null || s.isEmpty() || s.length() == 1) {
-            System.out.println("String is not valid");
-            return;
-        }
-        char characters[] = s.toCharArray(); // string to char
-        Map<Character, Integer> charactersMap = new HashMap<Character, Integer>(); // create hm
+        char arr[] = str.toCharArray();
 
-        for (Character ch : characters) { // for each loop for character
+        HashSet set = new HashSet();
 
-            if (charactersMap.containsKey(ch)) {
-                charactersMap.put(ch, charactersMap.get(ch) + 1);
-            } else {
-                charactersMap.put(ch, 1);
-            }
+        for (int i = 0; i < arr.length; i++) {
 
-        }
-        Set<Map.Entry<Character, Integer>> entrySet = charactersMap.entrySet();
-        for (Map.Entry<Character, Integer> e : entrySet) {
-            if (e.getValue() > 1) {
-                System.out.println(e.getKey() + " : " + e.getValue());
+            for (int j = i + 1; j < arr.length; j++) {
+
+                if (arr[i] == arr[j] && arr[i] != ' ') {
+
+                    set.add(arr[i]);
+
+                }
+
             }
         }
 
-
-//        charactersMap.entrySet().removeIf(i -> i.getValue() == 1);
-//        System.out.println(charactersMap);
-//
+        System.out.println(set);
 
     }
 

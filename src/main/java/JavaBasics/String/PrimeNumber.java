@@ -2,24 +2,19 @@ package JavaBasics.String;
 
 public class PrimeNumber {
 
-    public static void checkPrime(int n) {
-        int m, flag = 0;
-        m = n / 2;
+    public static void checkPrime(int num) {
+        for (int i = 2; i < num; i++) {
 
-        if (n == 0 || n == 1) {
-            System.out.println("Not Prime");
-        } else {
-            for (int i = 2; i <= m; i++) {
-                if (n % i == 0) {
-                    System.out.println("Not Prime");
-                    flag = 1;
-                    break;
-                }
-            }
-            if (flag == 0) {
-                System.out.println("Prime");
+            if (num % i == 0) {
+                System.out.println("Not prime");
+                return;
+            } else {
+                System.out.println("prime");
+                return;
             }
         }
+
+
     }
 
     public static void main(String[] args) {

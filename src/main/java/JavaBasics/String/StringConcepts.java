@@ -31,7 +31,7 @@ public class StringConcepts {
         //format
 
         int k = 300;
-        String s2 = String.format("%d", i);
+        String s2 = String.format("%d", k);
         System.out.println(s2 + 200);
 
         System.out.println("_________________________" + "Convert String into some other data type");

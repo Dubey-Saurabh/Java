@@ -11,7 +11,6 @@ public class IndexOfElementInArray {
     // Check if the current element is equal to 't' and return its index as an OptionalInt if found.
     // If 't' is not found in the array, return an empty OptionalInt.
 
-
     public static OptionalInt indexOf(int myArray[], int item) {
 
         if (myArray == null) {
@@ -30,8 +29,6 @@ public class IndexOfElementInArray {
 
         }
         return OptionalInt.empty();
-
-
     }
 
     public static void main(String[] args) {

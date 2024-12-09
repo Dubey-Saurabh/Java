@@ -9,7 +9,7 @@ public class LeaderElementInArray {
 
     public static void main(String[] args) {
 
-        int arr[] = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
+        int arr[] = {95, 14, 56, 85, 36, 56, 77, 18, 29, 49};
         int size = arr.length;
 
         int max = arr[size-1];
