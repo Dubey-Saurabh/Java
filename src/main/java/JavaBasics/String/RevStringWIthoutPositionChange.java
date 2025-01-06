@@ -17,7 +17,7 @@ public class RevStringWIthoutPositionChange {
 
 			for (int j = list[i].length() - 1; j >= 0; j--) {
 				vale = list[i].charAt(j);
-				value1 = value1 + value1.valueOf(vale);
+				value1 = value1 + vale;
 
 			}
 			finalString += value1 + " ";

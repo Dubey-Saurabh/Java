@@ -1,0 +1,25 @@
+Why Java8?
+Concise and minimal code
+To introduce functional programing benefits in Oops
+To enable parallel programming, to utilize multicore processors
+
+Features of Java8:
+Lambda Expression: it is an anonymous function or method which is having no name, we can implement it directly in method body
+Stream API: To perform operations on collections to process bulk data
+Date and Time API
+Base64 Encode Decode
+Method and Constructor reference: :: operator
+Default and Static methods in interface
+Functional Interface
+
+Changes introduce in Interface with Java8:
+Until previous versions. only public abstract methods were allowed and private static final variable were allowed
+From Java8, we can have concrete methods as well
+
+
+Note: We can have main method in Interface also like in Class but if Java 1.8 is there only.
+
+Note: We can't call static method in child class but if we have static methods in Interface we will call them by using Interface name.
+
+Note: Instance variable value can be changed in lambda expressions not local one.
+
