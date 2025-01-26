@@ -4,35 +4,34 @@ public class PairsOfElementsWhoseSumIsEqualToANumber {
 
     public static void main(String[] args) {
 
-        //two pointers
+        //Sorted array with distinct elements
+        int arr[] = {1, 2, 3, 4, 5, 6, 7};
+        int sum = 9;
 
-        int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
-
+        //Two indexes low and high
         int low = 0;
-        int sum = 40;
-        int high = my_array.length - 1;
+        int high = arr.length - 1;
 
-        for (int i = 0; i < args.length; i++) {
+        while (low < high) {
 
-            while (low < high) {
+          /*
+            if sum of arr[low] + arr[high] is greater than the
+            value of sum then decrement the value of high.
+         */
+            if ((arr[low] + arr[high]) > sum) {
+                high--;
 
-                if (my_array[low] + my_array[high] > sum) {
-                    high--;
-                } else if (my_array[low] + my_array[high] < sum) {
-                    low++;
-                } else if (my_array[low] + my_array[high] == sum) {
-                    System.out.println("Pair (" + my_array[low] + "," + my_array[high] + ")");
-                    low++;
-                    high--;
-                }
+            } else if ((arr[low] + arr[high]) < sum) {
+                low++;
+
+            } else if ((arr[low] + arr[high]) == sum) {
+                System.out.println(" Pair (" + arr[low] + " , " + arr[high] + " )");
+                low++;
+                high--;
+
 
             }
 
-
         }
-
-
     }
-
-
 }

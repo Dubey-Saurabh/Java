@@ -5,7 +5,7 @@ public class WhiteSpacesRemove {
         String str = "Live your impossible";
 
         //Immutable concept of string
-        str.concat("yeah it is");
+        str.concat(" "+ "yeah it is");
         System.out.println(str);
         System.out.println(str.concat("yeah it is"));
 

@@ -20,8 +20,6 @@ public class UniqueCharactersInString {
             }
         }
         System.out.print(str);
-        System.out.print(str.length());
-
 
     }
 }
