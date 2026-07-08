@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-            /*Ways to create Stream*/
+        /*Ways to create Stream*/
         /*Array into stream*/
         int arr[] = {1,2,3,4,5,6};
         long sum = Arrays.stream(arr).filter(x->x%2==0).sum();

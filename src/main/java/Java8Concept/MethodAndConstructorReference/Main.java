@@ -22,5 +22,10 @@ public class Main {
         List<Student> studentsList = names.stream().map(Student::new).collect(Collectors.toList());
         studentsList.forEach(x-> System.out.println(x));
 
+
+        List<Integer>salary = Arrays.asList(1, 2, 3, 4, 5);
+
+        salary.stream().sorted().forEach(x-> System.out.println(x-1));
+
     }
 }
